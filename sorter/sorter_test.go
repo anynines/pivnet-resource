@@ -7,8 +7,8 @@ import (
 	bsemver "github.com/blang/semver"
 	"github.com/pivotal-cf/go-pivnet"
 	"github.com/pivotal-cf/go-pivnet/logshim"
-	"github.com/pivotal-cf/pivnet-resource/sorter"
-	"github.com/pivotal-cf/pivnet-resource/sorter/sorterfakes"
+	"github.com/anynines/pivnet-resource/sorter"
+	"github.com/anynines/pivnet-resource/sorter/sorterfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

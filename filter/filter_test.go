@@ -6,7 +6,7 @@ import (
 	"github.com/pivotal-cf/go-pivnet"
 	"github.com/pivotal-cf/go-pivnet/logger"
 	"github.com/pivotal-cf/go-pivnet/logshim"
-	"github.com/pivotal-cf/pivnet-resource/filter"
+	"github.com/anynines/pivnet-resource/filter"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

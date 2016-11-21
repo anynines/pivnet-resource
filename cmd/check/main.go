@@ -8,14 +8,14 @@ import (
 
 	"github.com/pivotal-cf/go-pivnet"
 	"github.com/pivotal-cf/go-pivnet/logshim"
-	"github.com/pivotal-cf/pivnet-resource/check"
-	"github.com/pivotal-cf/pivnet-resource/concourse"
-	"github.com/pivotal-cf/pivnet-resource/filter"
-	"github.com/pivotal-cf/pivnet-resource/gp"
-	"github.com/pivotal-cf/pivnet-resource/semver"
-	"github.com/pivotal-cf/pivnet-resource/sorter"
-	"github.com/pivotal-cf/pivnet-resource/useragent"
-	"github.com/pivotal-cf/pivnet-resource/validator"
+	"github.com/anynines/pivnet-resource/check"
+	"github.com/anynines/pivnet-resource/concourse"
+	"github.com/anynines/pivnet-resource/filter"
+	"github.com/anynines/pivnet-resource/gp"
+	"github.com/anynines/pivnet-resource/semver"
+	"github.com/anynines/pivnet-resource/sorter"
+	"github.com/anynines/pivnet-resource/useragent"
+	"github.com/anynines/pivnet-resource/validator"
 	"github.com/robdimsdale/sanitizer"
 )
 

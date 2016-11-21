@@ -20,7 +20,7 @@ resource_types:
 
 Using `tag: latest-final` will automatically pull the latest final release,
 which can be found on the
-[releases page](https://github.com/pivotal-cf/pivnet-resource/releases)
+[releases page](https://github.com/anynines/pivnet-resource/releases)
 
 **To avoid automatically upgrading, use a fixed tag instead e.g. `tag: v0.6.3`**
 
@@ -86,7 +86,7 @@ are consistent with the production instance of Pivotal Network.
 
 ## Example Pipeline Configuration
 
-See [example pipeline configurations](https://github.com/pivotal-cf/pivnet-resource/blob/master/examples).
+See [example pipeline configurations](https://github.com/anynines/pivnet-resource/blob/master/examples).
 
 ## Behavior
 
@@ -104,7 +104,7 @@ The metadata for the product is written to both `metadata.json` and
 `metadata.yaml` in the working directory (typically `/tmp/build/get`).
 Use this to programmatically determine metadata of the release.
 
-See [metadata](https://github.com/pivotal-cf/pivnet-resource/blob/master/metadata)
+See [metadata](https://github.com/anynines/pivnet-resource/blob/master/metadata)
 for more details on the structure of the metadata file.
 
 #### Parameters
@@ -137,7 +137,7 @@ and added to the file metadata in Pivotal Network.
 
 **Existing releases with the same version will be deleted and recreated.**
 
-See [metadata](https://github.com/pivotal-cf/pivnet-resource/blob/master/metadata)
+See [metadata](https://github.com/anynines/pivnet-resource/blob/master/metadata)
 for more details on the structure of the metadata file.
 
 #### Parameters
@@ -167,7 +167,7 @@ release creation will fail.
 * `metadata_file`: *Optional.*
   File containing metadata for releases and product files.
 
-  See [metadata](https://github.com/pivotal-cf/pivnet-resource/blob/master/metadata)
+  See [metadata](https://github.com/anynines/pivnet-resource/blob/master/metadata)
   for more details on the structure of the metadata file.
 
 ## Integration Environment
@@ -233,13 +233,13 @@ S3_FILEPATH_PREFIX=Case-Sensitive-Path-eg-Pivotal-Diego-PCF \
 ### Contributing
 
 Please make all pull requests to the `develop` branch, and
-[ensure the tests pass locally](https://github.com/pivotal-cf/pivnet-resource#running-the-tests).
+[ensure the tests pass locally](https://github.com/anynines/pivnet-resource#running-the-tests).
 
 ### Project management
 
 The CI for this project can be found
 [here](https://p-concourse.wings.cf-app.com/teams/system-team-pivnet-resource-pivnet-resource-657d)
 and the scripts can be found in the
-[pivnet-resource-ci repo](https://github.com/pivotal-cf/pivnet-resource-ci).
+[pivnet-resource-ci repo](https://github.com/anynines/pivnet-resource-ci).
 
 The roadmap is captured in [Pivotal Tracker](https://www.pivotaltracker.com/projects/1474244).

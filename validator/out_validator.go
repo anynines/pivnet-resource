@@ -3,7 +3,7 @@ package validator
 import (
 	"fmt"
 
-	"github.com/pivotal-cf/pivnet-resource/concourse"
+	"github.com/anynines/pivnet-resource/concourse"
 )
 
 type OutValidator struct {

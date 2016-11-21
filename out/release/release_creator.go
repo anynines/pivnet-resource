@@ -8,8 +8,8 @@ import (
 	"github.com/blang/semver"
 	pivnet "github.com/pivotal-cf/go-pivnet"
 	"github.com/pivotal-cf/go-pivnet/logger"
-	"github.com/pivotal-cf/pivnet-resource/concourse"
-	"github.com/pivotal-cf/pivnet-resource/metadata"
+	"github.com/anynines/pivnet-resource/concourse"
+	"github.com/anynines/pivnet-resource/metadata"
 )
 
 type ReleaseCreator struct {

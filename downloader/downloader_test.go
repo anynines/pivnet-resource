@@ -11,8 +11,8 @@ import (
 	pivnet "github.com/pivotal-cf/go-pivnet"
 	"github.com/pivotal-cf/go-pivnet/logger"
 	"github.com/pivotal-cf/go-pivnet/logshim"
-	"github.com/pivotal-cf/pivnet-resource/downloader"
-	"github.com/pivotal-cf/pivnet-resource/downloader/downloaderfakes"
+	"github.com/anynines/pivnet-resource/downloader"
+	"github.com/anynines/pivnet-resource/downloader/downloaderfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
-	"github.com/pivotal-cf/pivnet-resource/concourse"
-	"github.com/pivotal-cf/pivnet-resource/versions"
+	"github.com/anynines/pivnet-resource/concourse"
+	"github.com/anynines/pivnet-resource/versions"
 )
 
 var _ = Describe("Check", func() {

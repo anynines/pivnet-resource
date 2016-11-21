@@ -4,7 +4,7 @@ package infakes
 import (
 	"sync"
 
-	"github.com/pivotal-cf/pivnet-resource/metadata"
+	"github.com/anynines/pivnet-resource/metadata"
 )
 
 type FakeFileWriter struct {
